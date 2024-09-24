@@ -192,10 +192,12 @@ command for synthesis
 ```bash
  % run_synthesis 
 ```
+![image](https://github.com/user-attachments/assets/646b74cb-2b89-4326-a949-09583601e8b1)
 
-![Screenshot from 2024-08-22 18-43-04](https://github.com/user-attachments/assets/3bb4b134-afdc-42f3-97bc-4bee082626d2)
+ 
 
-![Screenshot from 2024-08-22 18-43-17](https://github.com/user-attachments/assets/2c3ca1da-b5b9-4837-800e-2b750ac17aa7)
+![image](https://github.com/user-attachments/assets/1ec8faeb-1b46-4ae1-ae4a-f7fefec8a87c)
+
 ###### D Flip-Flop Ratio
 Now we will find the flip flop ratio
 ```bash
