@@ -167,9 +167,13 @@ First, ensure that OpenLane is properly installed and that you have the necessar
   ``` bash
   run_magic
   ````
-- This step involves running DRC (Design Rule Check), LVS (Layout vs. Schematic), and generating the final layout.
+- This step involves running DRC (Design Rule Check), LVS (Layout vs. Schematic), and generating the final layout
+
   
-![Screenshot from 2024-08-22 17-41-01](https://github.com/user-attachments/assets/bbdc48bc-b228-4819-9db6-d7feaa73d3b9)
+- ![image](https://github.com/user-attachments/assets/80a9cb83-590f-49d1-8735-e83baba69f6d)
+
+  
+
 
 To run in interactive mode 
  command will be 
