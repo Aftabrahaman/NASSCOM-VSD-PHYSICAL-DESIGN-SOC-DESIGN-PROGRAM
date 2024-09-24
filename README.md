@@ -2,57 +2,17 @@
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
-- [Day - 2 Good Floorplan vs bad Floorplan and Introduction to library cells](#DAY---2-Good-Floorplan-vs-bad-Floorplan-and-Introduction-to-library-cells)
-- [Day -3 Design Library Cell using magic layout and ngspice charcterization](#Day--3-Design-Library-Cell-using-magic-layout-and-ngspice-charcterization)
-- [DAY -4 Pre Lay-out Timing Analysis and Importance of Good clock Tree](#Day--4-Pre-Lay-out-Timing-Analysis-and-Importance-of-Good-clock-Tree)
-- [DAY -5 Final Steps for RTL2GDS Using TritonROUTE and openSTA](#Day--5-Final-Steps-for-RTL2GDS-Using-TritonROUTE-and-openSTA)
 
 ### Overview Of QFN-48 Chip (PicoRV32 - A Size-Optimized RISC-V CPU)
 VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed region containing the "Microprocessor (PicoRV32A-Cpu)," which will be designed using the RTL to GDS flow, progressing from the abstract design level to the fabrication stage.
 
 ![image](https://github.com/user-attachments/assets/844ea7fc-f4f4-4353-ae5d-d75a4507d075)
 
-### Introduction to IC Design components and terminologies
-
-![image](https://github.com/user-attachments/assets/26f265f8-3b5a-4942-9655-53be6e8833f0)
-
-![image](https://github.com/user-attachments/assets/bdea7b05-d989-443e-8539-bff0f37a9abd)
-
-### Introduction to RISC-V
-RISC-V is an open-source instruction set architecture (ISA) based on the principles of Reduced Instruction Set Computing (RISC). Unlike proprietary architectures, RISC-V is freely available for anyone to use and modify, which has led to its growing popularity across various fields, from embedded systems to high-performance computing.
-
-At its core, RISC-V is designed to be simple and efficient, with a base set of instructions that cover essential operations like arithmetic, logic, memory access, and control flow. This base can be expanded with additional features, such as floating-point arithmetic, atomic operations, and vector processing, depending on the application’s needs.
-
-![image](https://github.com/user-attachments/assets/eae5af87-001d-4a60-85ca-a129f6513c68)
 
 ## Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK
 
 
 ### OPENLANE 
-OpenLane is an open-source, end-to-end physical design flow for digital ASICs (Application-Specific Integrated Circuits) in the field of VLSI (Very Large Scale Integration). It is part of the broader OpenROAD project and is designed to be a fully automated, tape-out-ready toolchain for designing digital integrated circuits. OpenLane is used to transform a digital design (described in RTL) into a layout that can be fabricated.
-![image](https://github.com/user-attachments/assets/d3531547-1a2e-4cc9-9672-c0b4018be9f3)
-<!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light">
-  <head>
-    <title>Render</title>
-    
-    <meta name="referrer" content="never" />
-    <link rel="stylesheet" href="/static/assets/mermaid-5ff900d41fa481ba0234.css"/>
-    <script src="/static/assets/mermaidMarkdown-5ff900d41fa481ba0234.js" type="text/javascript"></script>
-  </head>
-  <body
-    class="is-embedded"
-    data-render-url="//viewscreen.githubusercontent.com"
-    data-github-hostname="github.com"
-    data-deploy-env="production"
-    data-client-timeout-attempts="30"
-    data-github-docs-hostname="https://docs.github.com"
-  >
-    <div class="render-shell js-render-shell">
-      <div class="border-wrap mermaid-view "></div>
-    </div>
-  </body>
-</html>
 
 
 #### Key Features of OpenLane:
@@ -207,5 +167,4 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
 ```
 
 
-![Screenshot from 2024-08-22 18-13-40](https://github.com/user-attachments/assets/a6be1ca5-842b-4431-a771-784ba144fc95)
 
