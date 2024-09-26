@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
-- [Day - Good floorplaning vs Bad floorplaning and introduction to library cells](#day---2-Good floorplaning vs Bad floorplaning and introduction to library cells)
+- [Day - 2 Good floorplaning vs Bad floorplaning and introduction to library cells](#day---2-Good-floorplaning-vs-Bad-floorplaning-and-introduction-to-library-cells)
 
 ### Overview Of QFN-48 Chip (PicoRV32 - A Size-Optimized RISC-V CPU)
 VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed region containing the "Microprocessor (PicoRV32A-Cpu)," which will be designed using the RTL to GDS flow, progressing from the abstract design level to the fabrication stage.
@@ -166,6 +166,8 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
            = 1613/14876
            = 0.10842
 ```
+
+## Day - 2 Good floorplaning vs Bad floorplaning and introduction to library cells
 
 
 
