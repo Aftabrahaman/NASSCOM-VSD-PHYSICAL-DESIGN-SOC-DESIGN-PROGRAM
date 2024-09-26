@@ -167,7 +167,20 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
            = 0.10842
 ```
 
-## Day - 2 Good floorplaning vs Bad floorplaning and introduction to library cells
+# Day - 2 Good floorplaning vs Bad floorplaning and introduction to library cells
 
+## Utilization Factor and Aspect Ratio of a die----
 
+**Utilization Factor**
+--Utilization Factor is a quantity based on which we can say how efficiently we used a core area of chip or die by the memory components or any other logic block.
+--It's the ratio between total area occupied by the netlist and total area of the core 
+*Utilization Factor* == Area occcupied by the netlist/Total area of the core 
 
+**Aspect Ratio**
+--Aspect Ratio   of a chip or die refers to the ratio of its width to its height
+aspect ratio:
+          A.r = width/height
+
+The aspect ratio affects the chip's mechanical stability, ease of packaging, and manufacturability. Ideally, the aspect ratio should be close to 1 (i.e., the chip is nearly square), as this minimizes stress and simplifies the packaging process. However, depending on the application and design constraints, the aspect ratio may vary.
+
+          
