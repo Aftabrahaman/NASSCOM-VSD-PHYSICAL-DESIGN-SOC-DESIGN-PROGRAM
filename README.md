@@ -183,7 +183,31 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
 aspect ratio:
 ````bash
           A.r = width/height
+
 ````
+
+
+
 The aspect ratio affects the chip's mechanical stability, ease of packaging, and manufacturability. Ideally, the aspect ratio should be close to 1 (i.e., the chip is nearly square), as this minimizes stress and simplifies the packaging process. However, depending on the application and design constraints, the aspect ratio may vary.
+
+
+![image](https://github.com/user-attachments/assets/0a83855f-d17a-4b7a-9480-9f1f482a8bc6)
+
+
+**Run Floorplan**
+````bash
+run_floorplan
+````
+![image](https://github.com/user-attachments/assets/69c45911-8da4-4a25-9386-e119972763b0)
+![image](https://github.com/user-attachments/assets/a096e81f-9ef0-4616-b453-56faa505724f)
+
+**Picorv32a Floorplan default values**
+![image](https://github.com/user-attachments/assets/ab72baf5-c3a6-495e-897a-ed64299b7e54)
+
+**magic tool tech file and the layout of design:**
+
+
+
+
 
           
